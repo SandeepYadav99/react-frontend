@@ -1,0 +1,77 @@
+.phone-book-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+
+}
+.custom-input-wrapper{
+    margin-bottom: 20px;
+}
+.custom-input-wrapper input{
+    outline: none;
+    padding: 8px 10px;
+    min-width: 290px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.custom-button-wrapper{
+    margin-bottom: 5px;
+}
+.custom-button-wrapper button{
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #128f12;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    min-width: 100px;
+}
+.no-details-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-wrapper{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-right: 20px;
+}
+.contact-wrapper{
+    display:  flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-wrapper img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.profile-section .user-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+.profile-section .user-phone{
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.contact-list-wrapper{
+    max-height: 615px;
+    overflow: scroll;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+.profile-section input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
